@@ -17,7 +17,7 @@ class EnumType(BaseType):
 
 class SchemaClass(BaseType):
   def __init__(self, resource=None, label=None, comment=None, sub_class=None,
-               super_class=None, properties=None, _type=None):
+               super_class=None, properties=[], _type=None):
     super(SchemaClass, self).__init__(resource=resource, label=label,
                                       comment=comment, _type=_type)
     self.sub_class = sub_class
@@ -154,7 +154,7 @@ class SchemaOrg:
         schema_property.property_range = entry[self._kRange]
       self.schema_property[entry_id] = schema_property
 
-  def GetPropertyContext(self, prop_uri, class_uri=None):
+  def GetPropertyContext(self, prop_uri, class_uri=None, debug=False):
     prop = self.schema_property[prop_uri]
     context = {'@id': prop.resource}
     if class_uri:
@@ -173,14 +173,14 @@ class SchemaOrg:
       class_obj = self.schema_class[class_uri]
       for prop_uri in class_obj.properties:
         prop = self.schema_property[prop_uri]
-        context[prop.label['en']] = self.GetPropertyContext(prop_uri, class_uri)
+        context[prop.label['en']] = self.GetPropertyContext(
+            prop_uri, class_uri, debug)
       if class_obj.super_class:
         self._AddSuperClassProperty(class_obj.super_class, context, debug)
       if debug:
         print('Add properties from Class: %s'%class_uri)
 
-  def CreateClassContext(self, class_id, debug=False):
-    class_uri = self._kSchemaOrg + class_id
+  def CreateClassContext(self, class_uri, debug=False):
     class_obj = self.schema_class[class_uri]
     context = {
       '@type': class_obj.resource,
@@ -197,14 +197,14 @@ class SchemaOrg:
 
     return context
 
-  def OutputClassContextInJson(self, class_id, fn_out=None):
-    context = self.CreateClassContext(class_id)
+  def OutputClassContextInJson(self, class_uri, fn_out=None):
+    if 'http://schema.org/' not in class_uri:
+      class_uri = 'http://schema.org/' + class_uri
+    context = self.CreateClassContext(class_uri, debug=False)
 
-    json.dumps(context, sort_keys=True, indent=4, separators=(',', ': '),
-               ensure_ascii=False)
     if fn_out is None:
-      fn_out = class_id + '_context.json'
+      fn_out = class_uri.split('/')[-1] + '.json'
     fout = codecs.open(fn_out, encoding='utf-8', mode='w')
-    fout.write(json.dumps(context, sort_keys=True, indent=4,
+    fout.write(json.dumps(context, sort_keys=True, indent=2,
                separators=(',', ': '), ensure_ascii=False))
     fout.close()
