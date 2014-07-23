@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import json, codecs
 
-def GetSchemaFromRDFa(fn_html='../schema/schema_org_rdfa.html'):
+def GetSchemaFromRDFa(fn_html='../schema/schema_org_rdfa.html', debug=False):
   '''Convert the raw schema.org RDFa html to json objects.'''
   html = BeautifulSoup(open(fn_html).read())
   html = html.body
@@ -18,7 +18,8 @@ def GetSchemaFromRDFa(fn_html='../schema/schema_org_rdfa.html'):
       div_dict['rdfs:label'] = div.find(property='rdfs:label').text
       div_dict['resource'] = div['resource']
     except:
-      print(div)
+      if debug:
+        print(div)
       continue
 
     div_dict['@type'] = div['typeof']
