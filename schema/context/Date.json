@@ -1,0 +1,7 @@
+{
+  "@type": "http://schema.org/Date",
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  }
+}

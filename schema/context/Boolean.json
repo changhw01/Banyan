@@ -1,0 +1,7 @@
+{
+  "@type": "http://schema.org/Boolean",
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  }
+}

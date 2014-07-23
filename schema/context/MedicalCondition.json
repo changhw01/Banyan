@@ -1,0 +1,148 @@
+{
+  "@type": "http://schema.org/MedicalCondition",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "associatedAnatomy": {
+    "@id": "http://schema.org/associatedAnatomy"
+  },
+  "cause": {
+    "@id": "http://schema.org/cause",
+    "@type": "http://schema.org/MedicalCause"
+  },
+  "code": {
+    "@id": "http://schema.org/code",
+    "@type": "http://schema.org/MedicalCode",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "differentialDiagnosis": {
+    "@id": "http://schema.org/differentialDiagnosis",
+    "@type": "http://schema.org/DDxElement"
+  },
+  "epidemiology": {
+    "@container": "@language",
+    "@id": "http://schema.org/epidemiology",
+    "@type": "http://schema.org/Text"
+  },
+  "expectedPrognosis": {
+    "@container": "@language",
+    "@id": "http://schema.org/expectedPrognosis",
+    "@type": "http://schema.org/Text"
+  },
+  "guideline": {
+    "@id": "http://schema.org/guideline",
+    "@type": "http://schema.org/MedicalGuideline",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  },
+  "medicineSystem": {
+    "@id": "http://schema.org/medicineSystem",
+    "@type": "http://schema.org/MedicineSystem",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "naturalProgression": {
+    "@container": "@language",
+    "@id": "http://schema.org/naturalProgression",
+    "@type": "http://schema.org/Text"
+  },
+  "pathophysiology": {
+    "@container": "@language",
+    "@id": "http://schema.org/pathophysiology",
+    "@type": "http://schema.org/Text"
+  },
+  "possibleComplication": {
+    "@container": "@language",
+    "@id": "http://schema.org/possibleComplication",
+    "@type": "http://schema.org/Text"
+  },
+  "possibleTreatment": {
+    "@id": "http://schema.org/possibleTreatment",
+    "@type": "http://schema.org/MedicalTherapy"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "primaryPrevention": {
+    "@id": "http://schema.org/primaryPrevention",
+    "@type": "http://schema.org/MedicalTherapy"
+  },
+  "recognizingAuthority": {
+    "@id": "http://schema.org/recognizingAuthority",
+    "@type": "http://schema.org/Organization",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "relevantSpecialty": {
+    "@id": "http://schema.org/relevantSpecialty",
+    "@type": "http://schema.org/MedicalSpecialty",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "riskFactor": {
+    "@id": "http://schema.org/riskFactor",
+    "@type": "http://schema.org/MedicalRiskFactor"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "secondaryPrevention": {
+    "@id": "http://schema.org/secondaryPrevention",
+    "@type": "http://schema.org/MedicalTherapy"
+  },
+  "signOrSymptom": {
+    "@id": "http://schema.org/signOrSymptom",
+    "@type": "http://schema.org/MedicalSignOrSymptom"
+  },
+  "stage": {
+    "@id": "http://schema.org/stage",
+    "@type": "http://schema.org/MedicalConditionStage"
+  },
+  "study": {
+    "@id": "http://schema.org/study",
+    "@type": "http://schema.org/MedicalStudy",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "subtype": {
+    "@container": "@language",
+    "@id": "http://schema.org/subtype",
+    "@type": "http://schema.org/Text"
+  },
+  "typicalTest": {
+    "@id": "http://schema.org/typicalTest",
+    "@type": "http://schema.org/MedicalTest"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

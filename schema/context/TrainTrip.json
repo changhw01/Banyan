@@ -1,0 +1,88 @@
+{
+  "@type": "http://schema.org/TrainTrip",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "arrivalPlatform": {
+    "@container": "@language",
+    "@id": "http://schema.org/arrivalPlatform",
+    "@type": "http://schema.org/Text"
+  },
+  "arrivalStation": {
+    "@id": "http://schema.org/arrivalStation",
+    "@type": "http://schema.org/TrainStation"
+  },
+  "arrivalTime": {
+    "@id": "http://schema.org/arrivalTime",
+    "@type": "http://schema.org/DateTime"
+  },
+  "departurePlatform": {
+    "@container": "@language",
+    "@id": "http://schema.org/departurePlatform",
+    "@type": "http://schema.org/Text"
+  },
+  "departureStation": {
+    "@id": "http://schema.org/departureStation",
+    "@type": "http://schema.org/TrainStation"
+  },
+  "departureTime": {
+    "@id": "http://schema.org/departureTime",
+    "@type": "http://schema.org/DateTime"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "provider": {
+    "@id": "http://schema.org/provider"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "trainName": {
+    "@container": "@language",
+    "@id": "http://schema.org/trainName",
+    "@type": "http://schema.org/Text"
+  },
+  "trainNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/trainNumber",
+    "@type": "http://schema.org/Text"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "@type": "http://schema.org/Text",
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "@type": "http://schema.org/Integer",
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  }
+}

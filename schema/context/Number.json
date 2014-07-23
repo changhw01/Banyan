@@ -1,0 +1,7 @@
+{
+  "@type": "http://schema.org/Number",
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  }
+}

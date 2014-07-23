@@ -1,0 +1,107 @@
+{
+  "@type": "http://schema.org/BusReservation",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "bookingAgent": {
+    "@id": "http://schema.org/bookingAgent",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "bookingTime": {
+    "@id": "http://schema.org/bookingTime",
+    "@type": "http://schema.org/DateTime",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  },
+  "modifiedTime": {
+    "@id": "http://schema.org/modifiedTime",
+    "@type": "http://schema.org/DateTime",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "priceCurrency": {
+    "@container": "@language",
+    "@id": "http://schema.org/priceCurrency",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "programMembershipUsed": {
+    "@id": "http://schema.org/programMembershipUsed",
+    "@type": "http://schema.org/ProgramMembership",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "provider": {
+    "@id": "http://schema.org/provider",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "reservationFor": {
+    "@id": "http://schema.org/reservationFor",
+    "@type": "http://schema.org/Thing",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "reservationId": {
+    "@container": "@language",
+    "@id": "http://schema.org/reservationId",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "reservationStatus": {
+    "@id": "http://schema.org/reservationStatus",
+    "@type": "http://schema.org/ReservationStatusType",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "reservedTicket": {
+    "@id": "http://schema.org/reservedTicket",
+    "@type": "http://schema.org/Ticket",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "totalPrice": {
+    "@id": "http://schema.org/totalPrice",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "underName": {
+    "@id": "http://schema.org/underName",
+    "inherit_from": "http://schema.org/Reservation"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

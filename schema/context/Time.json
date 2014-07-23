@@ -1,0 +1,7 @@
+{
+  "@type": "http://schema.org/Time",
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  }
+}

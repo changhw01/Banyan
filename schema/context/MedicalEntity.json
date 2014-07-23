@@ -1,0 +1,72 @@
+{
+  "@type": "http://schema.org/MedicalEntity",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text"
+  },
+  "code": {
+    "@id": "http://schema.org/code",
+    "@type": "http://schema.org/MedicalCode"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "guideline": {
+    "@id": "http://schema.org/guideline",
+    "@type": "http://schema.org/MedicalGuideline"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  },
+  "medicineSystem": {
+    "@id": "http://schema.org/medicineSystem",
+    "@type": "http://schema.org/MedicineSystem"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "recognizingAuthority": {
+    "@id": "http://schema.org/recognizingAuthority",
+    "@type": "http://schema.org/Organization"
+  },
+  "relevantSpecialty": {
+    "@id": "http://schema.org/relevantSpecialty",
+    "@type": "http://schema.org/MedicalSpecialty"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "study": {
+    "@id": "http://schema.org/study",
+    "@type": "http://schema.org/MedicalStudy"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "@type": "http://schema.org/MedicalTestPanel",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "affectedBy": {
+    "@id": "http://schema.org/affectedBy",
+    "@type": "http://schema.org/Drug",
+    "inherit_from": "http://schema.org/MedicalTest"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "code": {
+    "@id": "http://schema.org/code",
+    "@type": "http://schema.org/MedicalCode",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "guideline": {
+    "@id": "http://schema.org/guideline",
+    "@type": "http://schema.org/MedicalGuideline",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  },
+  "medicineSystem": {
+    "@id": "http://schema.org/medicineSystem",
+    "@type": "http://schema.org/MedicineSystem",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "normalRange": {
+    "@container": "@language",
+    "@id": "http://schema.org/normalRange",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/MedicalTest"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "recognizingAuthority": {
+    "@id": "http://schema.org/recognizingAuthority",
+    "@type": "http://schema.org/Organization",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "relevantSpecialty": {
+    "@id": "http://schema.org/relevantSpecialty",
+    "@type": "http://schema.org/MedicalSpecialty",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "signDetected": {
+    "@id": "http://schema.org/signDetected",
+    "@type": "http://schema.org/MedicalSign",
+    "inherit_from": "http://schema.org/MedicalTest"
+  },
+  "study": {
+    "@id": "http://schema.org/study",
+    "@type": "http://schema.org/MedicalStudy",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "subTest": {
+    "@id": "http://schema.org/subTest",
+    "@type": "http://schema.org/MedicalTest"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "usedToDiagnose": {
+    "@id": "http://schema.org/usedToDiagnose",
+    "@type": "http://schema.org/MedicalCondition",
+    "inherit_from": "http://schema.org/MedicalTest"
+  },
+  "usesDevice": {
+    "@id": "http://schema.org/usesDevice",
+    "@type": "http://schema.org/MedicalDevice",
+    "inherit_from": "http://schema.org/MedicalTest"
+  }
+}

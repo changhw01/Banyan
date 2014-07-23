@@ -1,0 +1,110 @@
+{
+  "@type": "http://schema.org/CheckInAction",
+  "about": {
+    "@id": "http://schema.org/about",
+    "@type": "http://schema.org/Thing",
+    "inherit_from": "http://schema.org/CommunicateAction"
+  },
+  "actionStatus": {
+    "@id": "http://schema.org/actionStatus",
+    "@type": "http://schema.org/ActionStatusType",
+    "inherit_from": "http://schema.org/Action"
+  },
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "agent": {
+    "@id": "http://schema.org/agent",
+    "inherit_from": "http://schema.org/Action"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "endTime": {
+    "@id": "http://schema.org/endTime",
+    "@type": "http://schema.org/DateTime",
+    "inherit_from": "http://schema.org/Action"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "instrument": {
+    "@id": "http://schema.org/instrument",
+    "@type": "http://schema.org/Thing",
+    "inherit_from": "http://schema.org/Action"
+  },
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  },
+  "language": {
+    "@id": "http://schema.org/language",
+    "@type": "http://schema.org/Language",
+    "inherit_from": "http://schema.org/CommunicateAction"
+  },
+  "location": {
+    "@id": "http://schema.org/location",
+    "inherit_from": "http://schema.org/Action"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "object": {
+    "@id": "http://schema.org/object",
+    "@type": "http://schema.org/Thing",
+    "inherit_from": "http://schema.org/Action"
+  },
+  "participant": {
+    "@id": "http://schema.org/participant",
+    "inherit_from": "http://schema.org/Action"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "recipient": {
+    "@id": "http://schema.org/recipient",
+    "inherit_from": "http://schema.org/CommunicateAction"
+  },
+  "result": {
+    "@id": "http://schema.org/result",
+    "@type": "http://schema.org/Thing",
+    "inherit_from": "http://schema.org/Action"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "startTime": {
+    "@id": "http://schema.org/startTime",
+    "@type": "http://schema.org/DateTime",
+    "inherit_from": "http://schema.org/Action"
+  },
+  "target": {
+    "@id": "http://schema.org/target",
+    "@type": "http://schema.org/EntryPoint",
+    "inherit_from": "http://schema.org/Action"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

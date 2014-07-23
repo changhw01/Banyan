@@ -1,0 +1,73 @@
+{
+  "@type": "http://schema.org/EntryPoint",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "application": {
+    "@id": "http://schema.org/application",
+    "@type": "http://schema.org/SoftwareApplication"
+  },
+  "contentType": {
+    "@container": "@language",
+    "@id": "http://schema.org/contentType",
+    "@type": "http://schema.org/Text"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "encodingType": {
+    "@container": "@language",
+    "@id": "http://schema.org/encodingType",
+    "@type": "http://schema.org/Text"
+  },
+  "httpMethod": {
+    "@container": "@language",
+    "@id": "http://schema.org/httpMethod",
+    "@type": "http://schema.org/Text"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "urlTemplate": {
+    "@container": "@language",
+    "@id": "http://schema.org/urlTemplate",
+    "@type": "http://schema.org/Text"
+  }
+}

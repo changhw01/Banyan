@@ -1,0 +1,129 @@
+{
+  "@type": "http://schema.org/Place",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "address": {
+    "@id": "http://schema.org/address",
+    "@type": "http://schema.org/PostalAddress"
+  },
+  "aggregateRating": {
+    "@id": "http://schema.org/aggregateRating",
+    "@type": "http://schema.org/AggregateRating"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "containedIn": {
+    "@id": "http://schema.org/containedIn",
+    "@type": "http://schema.org/Place"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "event": {
+    "@id": "http://schema.org/event",
+    "@type": "http://schema.org/Event"
+  },
+  "events": {
+    "@id": "http://schema.org/events",
+    "@type": "http://schema.org/Event"
+  },
+  "faxNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/faxNumber",
+    "@type": "http://schema.org/Text"
+  },
+  "geo": {
+    "@id": "http://schema.org/geo"
+  },
+  "globalLocationNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/globalLocationNumber",
+    "@type": "http://schema.org/Text"
+  },
+  "hasMap": {
+    "@id": "http://schema.org/hasMap"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "interactionCount": {
+    "@container": "@language",
+    "@id": "http://schema.org/interactionCount",
+    "@type": "http://schema.org/Text"
+  },
+  "isicV4": {
+    "@container": "@language",
+    "@id": "http://schema.org/isicV4",
+    "@type": "http://schema.org/Text"
+  },
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  },
+  "logo": {
+    "@id": "http://schema.org/logo"
+  },
+  "map": {
+    "@id": "http://schema.org/map",
+    "@type": "http://schema.org/URL"
+  },
+  "maps": {
+    "@id": "http://schema.org/maps",
+    "@type": "http://schema.org/URL"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "openingHoursSpecification": {
+    "@id": "http://schema.org/openingHoursSpecification",
+    "@type": "http://schema.org/OpeningHoursSpecification"
+  },
+  "photo": {
+    "@id": "http://schema.org/photo"
+  },
+  "photos": {
+    "@id": "http://schema.org/photos"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "review": {
+    "@id": "http://schema.org/review",
+    "@type": "http://schema.org/Review"
+  },
+  "reviews": {
+    "@id": "http://schema.org/reviews",
+    "@type": "http://schema.org/Review"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "telephone": {
+    "@container": "@language",
+    "@id": "http://schema.org/telephone",
+    "@type": "http://schema.org/Text"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

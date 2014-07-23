@@ -1,0 +1,76 @@
+{
+  "@type": "http://schema.org/QualitativeValue",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "equal": {
+    "@id": "http://schema.org/equal",
+    "@type": "http://schema.org/QualitativeValue"
+  },
+  "greater": {
+    "@id": "http://schema.org/greater",
+    "@type": "http://schema.org/QualitativeValue"
+  },
+  "greaterOrEqual": {
+    "@id": "http://schema.org/greaterOrEqual",
+    "@type": "http://schema.org/QualitativeValue"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  },
+  "lesser": {
+    "@id": "http://schema.org/lesser",
+    "@type": "http://schema.org/QualitativeValue"
+  },
+  "lesserOrEqual": {
+    "@id": "http://schema.org/lesserOrEqual",
+    "@type": "http://schema.org/QualitativeValue"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "nonEqual": {
+    "@id": "http://schema.org/nonEqual",
+    "@type": "http://schema.org/QualitativeValue"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "valueReference": {
+    "@id": "http://schema.org/valueReference"
+  }
+}

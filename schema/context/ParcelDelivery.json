@@ -1,0 +1,94 @@
+{
+  "@type": "http://schema.org/ParcelDelivery",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "carrier": {
+    "@id": "http://schema.org/carrier",
+    "@type": "http://schema.org/Organization"
+  },
+  "deliveryAddress": {
+    "@id": "http://schema.org/deliveryAddress",
+    "@type": "http://schema.org/PostalAddress"
+  },
+  "deliveryStatus": {
+    "@id": "http://schema.org/deliveryStatus",
+    "@type": "http://schema.org/DeliveryEvent"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "expectedArrivalFrom": {
+    "@id": "http://schema.org/expectedArrivalFrom",
+    "@type": "http://schema.org/DateTime"
+  },
+  "expectedArrivalUntil": {
+    "@id": "http://schema.org/expectedArrivalUntil",
+    "@type": "http://schema.org/DateTime"
+  },
+  "hasDeliveryMethod": {
+    "@id": "http://schema.org/hasDeliveryMethod",
+    "@type": "http://schema.org/DeliveryMethod"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "itemShipped": {
+    "@id": "http://schema.org/itemShipped",
+    "@type": "http://schema.org/Product"
+  },
+  "label": {
+    "@container": "@language",
+    "@id": "rdfs:label"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "originAddress": {
+    "@id": "http://schema.org/originAddress",
+    "@type": "http://schema.org/PostalAddress"
+  },
+  "partOfOrder": {
+    "@id": "http://schema.org/partOfOrder",
+    "@type": "http://schema.org/Order"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "trackingNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/trackingNumber",
+    "@type": "http://schema.org/Text"
+  },
+  "trackingUrl": {
+    "@id": "http://schema.org/trackingUrl",
+    "@type": "http://schema.org/URL"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}
