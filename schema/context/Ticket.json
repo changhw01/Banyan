@@ -29,10 +29,6 @@
     "@id": "http://schema.org/issuedBy",
     "@type": "http://schema.org/Organization"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "name": {
     "@container": "@language",
     "@id": "http://schema.org/name",

@@ -159,10 +159,6 @@
     "@type": "http://schema.org/Text",
     "inherit_from": "http://schema.org/Place"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "legalName": {
     "@container": "@language",
     "@id": "http://schema.org/legalName",

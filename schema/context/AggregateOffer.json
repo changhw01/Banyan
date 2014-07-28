@@ -145,10 +145,6 @@
     "@type": "http://schema.org/Product",
     "inherit_from": "http://schema.org/Offer"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "lowPrice": {
     "@id": "http://schema.org/lowPrice"
   },

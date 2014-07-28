@@ -183,12 +183,20 @@ class SchemaOrg:
   def CreateClassContext(self, class_uri, debug=False):
     class_obj = self.schema_class[class_uri]
     context = {
-      '@type': class_obj.resource,
+      '@type': class_obj.resource
+    }
+    '''
       'label': {
         '@id': 'rdfs:label',
-        '@container': '@language'
+        '@container': '@language',
+        '@value': class_obj.label
       }
-    }
+      'description': {
+        '@id': 'rdfs:comment',
+        '@container': '@language'
+        '@value': class_obj.comment
+      }
+    '''
     if class_obj.super_class:
       self._AddSuperClassProperty(class_obj.super_class, context, debug)
     for prop_uri in class_obj.properties:

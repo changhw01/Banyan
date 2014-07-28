@@ -88,10 +88,6 @@
     "@type": "http://schema.org/Text",
     "inherit_from": "http://schema.org/Place"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "logo": {
     "@id": "http://schema.org/logo",
     "inherit_from": "http://schema.org/Place"

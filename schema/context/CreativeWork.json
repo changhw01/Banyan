@@ -191,10 +191,6 @@
     "@id": "http://schema.org/keywords",
     "@type": "http://schema.org/Text"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "learningResourceType": {
     "@container": "@language",
     "@id": "http://schema.org/learningResourceType",

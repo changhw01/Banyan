@@ -43,10 +43,6 @@
     "@id": "http://schema.org/indication",
     "@type": "http://schema.org/MedicalIndication"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "medicineSystem": {
     "@id": "http://schema.org/medicineSystem",
     "@type": "http://schema.org/MedicineSystem",

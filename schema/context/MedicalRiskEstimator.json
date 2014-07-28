@@ -39,10 +39,6 @@
     "@id": "http://schema.org/includedRiskFactor",
     "@type": "http://schema.org/MedicalRiskFactor"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "medicineSystem": {
     "@id": "http://schema.org/medicineSystem",
     "@type": "http://schema.org/MedicineSystem",

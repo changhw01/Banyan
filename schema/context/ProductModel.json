@@ -96,10 +96,6 @@
     "@type": "http://schema.org/OfferItemCondition",
     "inherit_from": "http://schema.org/Product"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "logo": {
     "@id": "http://schema.org/logo",
     "inherit_from": "http://schema.org/Product"

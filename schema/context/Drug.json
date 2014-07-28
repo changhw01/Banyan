@@ -114,10 +114,6 @@
     "@id": "http://schema.org/isProprietary",
     "@type": "http://schema.org/Boolean"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "labelDetails": {
     "@id": "http://schema.org/labelDetails",
     "@type": "http://schema.org/URL"

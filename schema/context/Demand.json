@@ -107,10 +107,6 @@
     "@id": "http://schema.org/itemOffered",
     "@type": "http://schema.org/Product"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "mpn": {
     "@container": "@language",
     "@id": "http://schema.org/mpn",

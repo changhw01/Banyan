@@ -47,10 +47,6 @@
     "@type": "http://schema.org/Thing",
     "inherit_from": "http://schema.org/Action"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "location": {
     "@id": "http://schema.org/location",
     "inherit_from": "http://schema.org/Action"

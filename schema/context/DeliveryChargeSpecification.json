@@ -38,10 +38,6 @@
     "@id": "http://schema.org/image",
     "inherit_from": "http://schema.org/Thing"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "maxPrice": {
     "@id": "http://schema.org/maxPrice",
     "@type": "http://schema.org/Number",

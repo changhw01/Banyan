@@ -1,7 +1,3 @@
 {
-  "@type": "http://schema.org/DataType",
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  }
+  "@type": "http://schema.org/DataType"
 }

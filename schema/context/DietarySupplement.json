@@ -70,10 +70,6 @@
     "@id": "http://schema.org/isProprietary",
     "@type": "http://schema.org/Boolean"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "legalStatus": {
     "@id": "http://schema.org/legalStatus",
     "@type": "http://schema.org/DrugLegalStatus"

@@ -66,10 +66,6 @@
     "@id": "http://schema.org/infectiousAgentClass",
     "@type": "http://schema.org/InfectiousAgentClass"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "medicineSystem": {
     "@id": "http://schema.org/medicineSystem",
     "@type": "http://schema.org/MedicineSystem",

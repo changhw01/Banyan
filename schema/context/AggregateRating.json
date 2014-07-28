@@ -29,10 +29,6 @@
     "@id": "http://schema.org/itemReviewed",
     "@type": "http://schema.org/Thing"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "name": {
     "@container": "@language",
     "@id": "http://schema.org/name",

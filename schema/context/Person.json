@@ -154,10 +154,6 @@
     "@id": "http://schema.org/knows",
     "@type": "http://schema.org/Person"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "makesOffer": {
     "@id": "http://schema.org/makesOffer",
     "@type": "http://schema.org/Offer"

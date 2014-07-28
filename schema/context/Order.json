@@ -54,10 +54,6 @@
     "@id": "http://schema.org/isGift",
     "@type": "http://schema.org/Boolean"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "merchant": {
     "@id": "http://schema.org/merchant"
   },

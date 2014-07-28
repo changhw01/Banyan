@@ -44,10 +44,6 @@
     "@type": "http://schema.org/Thing",
     "inherit_from": "http://schema.org/Action"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "lender": {
     "@id": "http://schema.org/lender",
     "@type": "http://schema.org/Person"

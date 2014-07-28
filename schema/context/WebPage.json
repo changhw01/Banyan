@@ -240,10 +240,6 @@
     "@type": "http://schema.org/Text",
     "inherit_from": "http://schema.org/CreativeWork"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "lastReviewed": {
     "@id": "http://schema.org/lastReviewed",
     "@type": "http://schema.org/Date"

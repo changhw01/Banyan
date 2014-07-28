@@ -65,10 +65,6 @@
     "@id": "http://schema.org/image",
     "inherit_from": "http://schema.org/Thing"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "location": {
     "@id": "http://schema.org/location",
     "inherit_from": "http://schema.org/Event"

@@ -40,10 +40,6 @@
     "@type": "http://schema.org/Thing",
     "inherit_from": "http://schema.org/Action"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "landlord": {
     "@id": "http://schema.org/landlord"
   },

@@ -76,10 +76,6 @@
     "@id": "http://schema.org/insertion",
     "@type": "http://schema.org/AnatomicalStructure"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "medicineSystem": {
     "@id": "http://schema.org/medicineSystem",
     "@type": "http://schema.org/MedicineSystem",

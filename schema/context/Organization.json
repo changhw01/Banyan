@@ -110,10 +110,6 @@
     "@id": "http://schema.org/isicV4",
     "@type": "http://schema.org/Text"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "legalName": {
     "@container": "@language",
     "@id": "http://schema.org/legalName",

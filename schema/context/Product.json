@@ -78,10 +78,6 @@
     "@id": "http://schema.org/itemCondition",
     "@type": "http://schema.org/OfferItemCondition"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "logo": {
     "@id": "http://schema.org/logo"
   },

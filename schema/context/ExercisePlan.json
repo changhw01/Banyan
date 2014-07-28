@@ -299,10 +299,6 @@
     "@type": "http://schema.org/Text",
     "inherit_from": "http://schema.org/CreativeWork"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "learningResourceType": {
     "@container": "@language",
     "@id": "http://schema.org/learningResourceType",

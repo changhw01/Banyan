@@ -41,10 +41,6 @@
     "@type": "http://schema.org/MedicalRiskFactor",
     "inherit_from": "http://schema.org/MedicalRiskEstimator"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "medicineSystem": {
     "@id": "http://schema.org/medicineSystem",
     "@type": "http://schema.org/MedicineSystem",

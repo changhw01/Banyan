@@ -49,10 +49,6 @@
     "@id": "http://schema.org/itemShipped",
     "@type": "http://schema.org/Product"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "name": {
     "@container": "@language",
     "@id": "http://schema.org/name",

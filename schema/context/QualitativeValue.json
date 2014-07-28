@@ -33,10 +33,6 @@
     "@id": "http://schema.org/image",
     "inherit_from": "http://schema.org/Thing"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "lesser": {
     "@id": "http://schema.org/lesser",
     "@type": "http://schema.org/QualitativeValue"

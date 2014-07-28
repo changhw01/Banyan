@@ -45,10 +45,6 @@
     "@type": "http://schema.org/Thing",
     "inherit_from": "http://schema.org/Action"
   },
-  "label": {
-    "@container": "@language",
-    "@id": "rdfs:label"
-  },
   "language": {
     "@id": "http://schema.org/language",
     "@type": "http://schema.org/Language",
