@@ -354,5 +354,26 @@
     "@id": "http://schema.org/video",
     "@type": "http://schema.org/VideoObject",
     "inherit_from": "http://schema.org/CreativeWork"
+  },
+  "bookTitle": {
+    "@container": "@language",
+    "@id": "http://informatics.tw/bookTitle",
+    "@type": "http://schema.org/Text"
+  },
+  "libClassNum": {
+    "@id": "http://informatics.tw/libClassNum",
+    "@type": "http://schema.org/Text"
+  },
+  "listPrice": {
+    "@id": "http://informatics.tw/listPrice",
+    "@type": "http://schema.org/Text"
+  },
+  "bookSize": {
+    "@id": "http://informatics.tw/bookSize",
+    "@type": "http://schema.org/Text"
+  },
+  "bookBinding": {
+    "@id": "http://informatics.tw/bookBinding",
+    "@type": "http://schema.org/Text"
   }
 }
