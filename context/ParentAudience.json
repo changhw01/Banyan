@@ -1,0 +1,101 @@
+{
+  "@type": "http://schema.org/ParentAudience",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "audienceType": {
+    "@container": "@language",
+    "@id": "http://schema.org/audienceType",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Audience"
+  },
+  "childMaxAge": {
+    "@id": "http://schema.org/childMaxAge",
+    "@type": "http://schema.org/Number"
+  },
+  "childMinAge": {
+    "@id": "http://schema.org/childMinAge",
+    "@type": "http://schema.org/Number"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "geographicArea": {
+    "@id": "http://schema.org/geographicArea",
+    "@type": "http://schema.org/AdministrativeArea",
+    "inherit_from": "http://schema.org/Audience"
+  },
+  "healthCondition": {
+    "@id": "http://schema.org/healthCondition",
+    "@type": "http://schema.org/MedicalCondition",
+    "inherit_from": "http://schema.org/PeopleAudience"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "requiredGender": {
+    "@container": "@language",
+    "@id": "http://schema.org/requiredGender",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/PeopleAudience"
+  },
+  "requiredMaxAge": {
+    "@id": "http://schema.org/requiredMaxAge",
+    "@type": "http://schema.org/Integer",
+    "inherit_from": "http://schema.org/PeopleAudience"
+  },
+  "requiredMinAge": {
+    "@id": "http://schema.org/requiredMinAge",
+    "@type": "http://schema.org/Integer",
+    "inherit_from": "http://schema.org/PeopleAudience"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "suggestedGender": {
+    "@container": "@language",
+    "@id": "http://schema.org/suggestedGender",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/PeopleAudience"
+  },
+  "suggestedMaxAge": {
+    "@id": "http://schema.org/suggestedMaxAge",
+    "@type": "http://schema.org/Number",
+    "inherit_from": "http://schema.org/PeopleAudience"
+  },
+  "suggestedMinAge": {
+    "@id": "http://schema.org/suggestedMinAge",
+    "@type": "http://schema.org/Number",
+    "inherit_from": "http://schema.org/PeopleAudience"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

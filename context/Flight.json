@@ -1,0 +1,107 @@
+{
+  "@type": "http://schema.org/Flight",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "aircraft": {
+    "@id": "http://schema.org/aircraft"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "arrivalGate": {
+    "@container": "@language",
+    "@id": "http://schema.org/arrivalGate",
+    "@type": "http://schema.org/Text"
+  },
+  "arrivalTerminal": {
+    "@container": "@language",
+    "@id": "http://schema.org/arrivalTerminal",
+    "@type": "http://schema.org/Text"
+  },
+  "arrivalTime": {
+    "@id": "http://schema.org/arrivalTime",
+    "@type": "http://schema.org/DateTime"
+  },
+  "carrier": {
+    "@id": "http://schema.org/carrier",
+    "@type": "http://schema.org/Organization"
+  },
+  "departureAirport": {
+    "@id": "http://schema.org/arrivalAirport",
+    "@type": "http://schema.org/Airport"
+  },
+  "departureGate": {
+    "@container": "@language",
+    "@id": "http://schema.org/departureGate",
+    "@type": "http://schema.org/Text"
+  },
+  "departureTerminal": {
+    "@container": "@language",
+    "@id": "http://schema.org/departureTerminal",
+    "@type": "http://schema.org/Text"
+  },
+  "departureTime": {
+    "@id": "http://schema.org/departureTime",
+    "@type": "http://schema.org/DateTime"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "estimatedFlightDuration": {
+    "@id": "http://schema.org/estimatedFlightDuration"
+  },
+  "flightDistance": {
+    "@id": "http://schema.org/flightDistance"
+  },
+  "flightNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/flightNumber",
+    "@type": "http://schema.org/Text"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "mealService": {
+    "@container": "@language",
+    "@id": "http://schema.org/mealService",
+    "@type": "http://schema.org/Text"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "provider": {
+    "@id": "http://schema.org/provider"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "webCheckinTime": {
+    "@id": "http://schema.org/webCheckinTime",
+    "@type": "http://schema.org/DateTime"
+  }
+}

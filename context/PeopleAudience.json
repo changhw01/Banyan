@@ -1,0 +1,86 @@
+{
+  "@type": "http://schema.org/PeopleAudience",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "audienceType": {
+    "@container": "@language",
+    "@id": "http://schema.org/audienceType",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Audience"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "geographicArea": {
+    "@id": "http://schema.org/geographicArea",
+    "@type": "http://schema.org/AdministrativeArea",
+    "inherit_from": "http://schema.org/Audience"
+  },
+  "healthCondition": {
+    "@id": "http://schema.org/healthCondition",
+    "@type": "http://schema.org/MedicalCondition"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "requiredGender": {
+    "@container": "@language",
+    "@id": "http://schema.org/requiredGender",
+    "@type": "http://schema.org/Text"
+  },
+  "requiredMaxAge": {
+    "@id": "http://schema.org/requiredMaxAge",
+    "@type": "http://schema.org/Integer"
+  },
+  "requiredMinAge": {
+    "@id": "http://schema.org/requiredMinAge",
+    "@type": "http://schema.org/Integer"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "suggestedGender": {
+    "@container": "@language",
+    "@id": "http://schema.org/suggestedGender",
+    "@type": "http://schema.org/Text"
+  },
+  "suggestedMaxAge": {
+    "@id": "http://schema.org/suggestedMaxAge",
+    "@type": "http://schema.org/Number"
+  },
+  "suggestedMinAge": {
+    "@id": "http://schema.org/suggestedMinAge",
+    "@type": "http://schema.org/Number"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

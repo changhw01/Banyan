@@ -1,0 +1,196 @@
+{
+  "@type": "http://schema.org/Offer",
+  "acceptedPaymentMethod": {
+    "@id": "http://schema.org/acceptedPaymentMethod",
+    "@type": "http://schema.org/PaymentMethod"
+  },
+  "addOn": {
+    "@id": "http://schema.org/addOn",
+    "@type": "http://schema.org/Offer"
+  },
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "advanceBookingRequirement": {
+    "@id": "http://schema.org/advanceBookingRequirement",
+    "@type": "http://schema.org/QuantitativeValue"
+  },
+  "aggregateRating": {
+    "@id": "http://schema.org/aggregateRating",
+    "@type": "http://schema.org/AggregateRating"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "availability": {
+    "@id": "http://schema.org/availability",
+    "@type": "http://schema.org/ItemAvailability"
+  },
+  "availabilityEnds": {
+    "@id": "http://schema.org/availabilityEnds",
+    "@type": "http://schema.org/DateTime"
+  },
+  "availabilityStarts": {
+    "@id": "http://schema.org/availabilityStarts",
+    "@type": "http://schema.org/DateTime"
+  },
+  "availableAtOrFrom": {
+    "@id": "http://schema.org/availableAtOrFrom",
+    "@type": "http://schema.org/Place"
+  },
+  "availableDeliveryMethod": {
+    "@id": "http://schema.org/availableDeliveryMethod",
+    "@type": "http://schema.org/DeliveryMethod"
+  },
+  "businessFunction": {
+    "@id": "http://schema.org/businessFunction",
+    "@type": "http://schema.org/BusinessFunction"
+  },
+  "category": {
+    "@id": "http://schema.org/category"
+  },
+  "deliveryLeadTime": {
+    "@id": "http://schema.org/deliveryLeadTime",
+    "@type": "http://schema.org/QuantitativeValue"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "eligibleCustomerType": {
+    "@id": "http://schema.org/eligibleCustomerType",
+    "@type": "http://schema.org/BusinessEntityType"
+  },
+  "eligibleDuration": {
+    "@id": "http://schema.org/eligibleDuration",
+    "@type": "http://schema.org/QuantitativeValue"
+  },
+  "eligibleQuantity": {
+    "@id": "http://schema.org/eligibleQuantity",
+    "@type": "http://schema.org/QuantitativeValue"
+  },
+  "eligibleRegion": {
+    "@id": "http://schema.org/eligibleRegion"
+  },
+  "eligibleTransactionVolume": {
+    "@id": "http://schema.org/eligibleTransactionVolume",
+    "@type": "http://schema.org/PriceSpecification"
+  },
+  "gtin13": {
+    "@container": "@language",
+    "@id": "http://schema.org/gtin13",
+    "@type": "http://schema.org/Text"
+  },
+  "gtin14": {
+    "@container": "@language",
+    "@id": "http://schema.org/gtin14",
+    "@type": "http://schema.org/Text"
+  },
+  "gtin8": {
+    "@container": "@language",
+    "@id": "http://schema.org/gtin8",
+    "@type": "http://schema.org/Text"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "includesObject": {
+    "@id": "http://schema.org/includesObject",
+    "@type": "http://schema.org/TypeAndQuantityNode"
+  },
+  "inventoryLevel": {
+    "@id": "http://schema.org/inventoryLevel",
+    "@type": "http://schema.org/QuantitativeValue"
+  },
+  "itemCondition": {
+    "@id": "http://schema.org/itemCondition",
+    "@type": "http://schema.org/OfferItemCondition"
+  },
+  "itemOffered": {
+    "@id": "http://schema.org/itemOffered",
+    "@type": "http://schema.org/Product"
+  },
+  "mpn": {
+    "@container": "@language",
+    "@id": "http://schema.org/mpn",
+    "@type": "http://schema.org/Text"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "price": {
+    "@id": "http://schema.org/price"
+  },
+  "priceCurrency": {
+    "@container": "@language",
+    "@id": "http://schema.org/priceCurrency",
+    "@type": "http://schema.org/Text"
+  },
+  "priceSpecification": {
+    "@id": "http://schema.org/priceSpecification",
+    "@type": "http://schema.org/PriceSpecification"
+  },
+  "priceValidUntil": {
+    "@id": "http://schema.org/priceValidUntil",
+    "@type": "http://schema.org/Date"
+  },
+  "review": {
+    "@id": "http://schema.org/review",
+    "@type": "http://schema.org/Review"
+  },
+  "reviews": {
+    "@id": "http://schema.org/reviews",
+    "@type": "http://schema.org/Review"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "seller": {
+    "@id": "http://schema.org/seller"
+  },
+  "serialNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/serialNumber",
+    "@type": "http://schema.org/Text"
+  },
+  "sku": {
+    "@container": "@language",
+    "@id": "http://schema.org/sku",
+    "@type": "http://schema.org/Text"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "validFrom": {
+    "@id": "http://schema.org/validFrom",
+    "@type": "http://schema.org/DateTime"
+  },
+  "validThrough": {
+    "@id": "http://schema.org/validThrough",
+    "@type": "http://schema.org/DateTime"
+  },
+  "warranty": {
+    "@id": "http://schema.org/warranty",
+    "@type": "http://schema.org/WarrantyPromise"
+  }
+}

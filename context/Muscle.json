@@ -1,0 +1,153 @@
+{
+  "@type": "http://schema.org/Muscle",
+  "action": {
+    "@container": "@language",
+    "@id": "http://schema.org/action",
+    "@type": "http://schema.org/Text"
+  },
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "antagonist": {
+    "@id": "http://schema.org/antagonist",
+    "@type": "http://schema.org/Muscle"
+  },
+  "associatedPathophysiology": {
+    "@container": "@language",
+    "@id": "http://schema.org/associatedPathophysiology",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/AnatomicalStructure"
+  },
+  "bloodSupply": {
+    "@id": "http://schema.org/bloodSupply",
+    "@type": "http://schema.org/Vessel"
+  },
+  "bodyLocation": {
+    "@container": "@language",
+    "@id": "http://schema.org/bodyLocation",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/AnatomicalStructure"
+  },
+  "code": {
+    "@id": "http://schema.org/code",
+    "@type": "http://schema.org/MedicalCode",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "connectedTo": {
+    "@id": "http://schema.org/connectedTo",
+    "@type": "http://schema.org/AnatomicalStructure",
+    "inherit_from": "http://schema.org/AnatomicalStructure"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "diagram": {
+    "@id": "http://schema.org/diagram",
+    "@type": "http://schema.org/ImageObject",
+    "inherit_from": "http://schema.org/AnatomicalStructure"
+  },
+  "function": {
+    "@container": "@language",
+    "@id": "http://schema.org/function",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/AnatomicalStructure"
+  },
+  "guideline": {
+    "@id": "http://schema.org/guideline",
+    "@type": "http://schema.org/MedicalGuideline",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "insertion": {
+    "@id": "http://schema.org/insertion",
+    "@type": "http://schema.org/AnatomicalStructure"
+  },
+  "medicineSystem": {
+    "@id": "http://schema.org/medicineSystem",
+    "@type": "http://schema.org/MedicineSystem",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "muscleAction": {
+    "@container": "@language",
+    "@id": "http://schema.org/muscleAction",
+    "@type": "http://schema.org/Text"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "nerve": {
+    "@id": "http://schema.org/nerve",
+    "@type": "http://schema.org/Nerve"
+  },
+  "origin": {
+    "@id": "http://schema.org/origin",
+    "@type": "http://schema.org/AnatomicalStructure"
+  },
+  "partOfSystem": {
+    "@id": "http://schema.org/partOfSystem",
+    "@type": "http://schema.org/AnatomicalSystem",
+    "inherit_from": "http://schema.org/AnatomicalStructure"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "recognizingAuthority": {
+    "@id": "http://schema.org/recognizingAuthority",
+    "@type": "http://schema.org/Organization",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "relatedCondition": {
+    "@id": "http://schema.org/relatedCondition",
+    "@type": "http://schema.org/MedicalCondition",
+    "inherit_from": "http://schema.org/AnatomicalStructure"
+  },
+  "relatedTherapy": {
+    "@id": "http://schema.org/relatedTherapy",
+    "@type": "http://schema.org/MedicalTherapy",
+    "inherit_from": "http://schema.org/AnatomicalStructure"
+  },
+  "relevantSpecialty": {
+    "@id": "http://schema.org/relevantSpecialty",
+    "@type": "http://schema.org/MedicalSpecialty",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "study": {
+    "@id": "http://schema.org/study",
+    "@type": "http://schema.org/MedicalStudy",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "subStructure": {
+    "@id": "http://schema.org/subStructure",
+    "@type": "http://schema.org/AnatomicalStructure",
+    "inherit_from": "http://schema.org/AnatomicalStructure"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

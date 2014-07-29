@@ -1,0 +1,122 @@
+{
+  "@type": "http://schema.org/PostalAddress",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "addressCountry": {
+    "@id": "http://schema.org/addressCountry",
+    "@type": "http://schema.org/Country"
+  },
+  "addressLocality": {
+    "@container": "@language",
+    "@id": "http://schema.org/addressLocality",
+    "@type": "http://schema.org/Text"
+  },
+  "addressRegion": {
+    "@container": "@language",
+    "@id": "http://schema.org/addressRegion",
+    "@type": "http://schema.org/Text"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "areaServed": {
+    "@id": "http://schema.org/areaServed",
+    "@type": "http://schema.org/AdministrativeArea",
+    "inherit_from": "http://schema.org/ContactPoint"
+  },
+  "availableLanguage": {
+    "@id": "http://schema.org/availableLanguage",
+    "@type": "http://schema.org/Language",
+    "inherit_from": "http://schema.org/ContactPoint"
+  },
+  "contactOption": {
+    "@id": "http://schema.org/contactOption",
+    "@type": "http://schema.org/ContactPointOption",
+    "inherit_from": "http://schema.org/ContactPoint"
+  },
+  "contactType": {
+    "@container": "@language",
+    "@id": "http://schema.org/contactType",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/ContactPoint"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "email": {
+    "@container": "@language",
+    "@id": "http://schema.org/email",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/ContactPoint"
+  },
+  "faxNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/faxNumber",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/ContactPoint"
+  },
+  "hoursAvailable": {
+    "@id": "http://schema.org/hoursAvailable",
+    "@type": "http://schema.org/OpeningHoursSpecification",
+    "inherit_from": "http://schema.org/ContactPoint"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "postOfficeBoxNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/postOfficeBoxNumber",
+    "@type": "http://schema.org/Text"
+  },
+  "postalCode": {
+    "@container": "@language",
+    "@id": "http://schema.org/postalCode",
+    "@type": "http://schema.org/Text"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "productSupported": {
+    "@id": "http://schema.org/productSupported",
+    "inherit_from": "http://schema.org/ContactPoint"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "streetAddress": {
+    "@container": "@language",
+    "@id": "http://schema.org/streetAddress",
+    "@type": "http://schema.org/Text"
+  },
+  "telephone": {
+    "@container": "@language",
+    "@id": "http://schema.org/telephone",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/ContactPoint"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "@type": "http://schema.org/DietarySupplement",
+  "activeIngredient": {
+    "@container": "@language",
+    "@id": "http://schema.org/activeIngredient",
+    "@type": "http://schema.org/Text"
+  },
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "adverseOutcome": {
+    "@id": "http://schema.org/adverseOutcome",
+    "@type": "http://schema.org/MedicalEntity",
+    "inherit_from": "http://schema.org/MedicalTherapy"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "background": {
+    "@container": "@language",
+    "@id": "http://schema.org/background",
+    "@type": "http://schema.org/Text"
+  },
+  "code": {
+    "@id": "http://schema.org/code",
+    "@type": "http://schema.org/MedicalCode",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "contraindication": {
+    "@id": "http://schema.org/contraindication",
+    "@type": "http://schema.org/MedicalContraindication",
+    "inherit_from": "http://schema.org/MedicalTherapy"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "dosageForm": {
+    "@container": "@language",
+    "@id": "http://schema.org/dosageForm",
+    "@type": "http://schema.org/Text"
+  },
+  "duplicateTherapy": {
+    "@id": "http://schema.org/duplicateTherapy",
+    "@type": "http://schema.org/MedicalTherapy",
+    "inherit_from": "http://schema.org/MedicalTherapy"
+  },
+  "guideline": {
+    "@id": "http://schema.org/guideline",
+    "@type": "http://schema.org/MedicalGuideline",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "indication": {
+    "@id": "http://schema.org/indication",
+    "@type": "http://schema.org/MedicalIndication",
+    "inherit_from": "http://schema.org/MedicalTherapy"
+  },
+  "isProprietary": {
+    "@id": "http://schema.org/isProprietary",
+    "@type": "http://schema.org/Boolean"
+  },
+  "legalStatus": {
+    "@id": "http://schema.org/legalStatus",
+    "@type": "http://schema.org/DrugLegalStatus"
+  },
+  "manufacturer": {
+    "@id": "http://schema.org/manufacturer",
+    "@type": "http://schema.org/Organization"
+  },
+  "maximumIntake": {
+    "@id": "http://schema.org/maximumIntake",
+    "@type": "http://schema.org/MaximumDoseSchedule"
+  },
+  "mechanismOfAction": {
+    "@container": "@language",
+    "@id": "http://schema.org/mechanismOfAction",
+    "@type": "http://schema.org/Text"
+  },
+  "medicineSystem": {
+    "@id": "http://schema.org/medicineSystem",
+    "@type": "http://schema.org/MedicineSystem",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "nonProprietaryName": {
+    "@container": "@language",
+    "@id": "http://schema.org/nonProprietaryName",
+    "@type": "http://schema.org/Text"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "recognizingAuthority": {
+    "@id": "http://schema.org/recognizingAuthority",
+    "@type": "http://schema.org/Organization",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "recommendedIntake": {
+    "@id": "http://schema.org/recommendedIntake",
+    "@type": "http://schema.org/RecommendedDoseSchedule"
+  },
+  "relevantSpecialty": {
+    "@id": "http://schema.org/relevantSpecialty",
+    "@type": "http://schema.org/MedicalSpecialty",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "safetyConsideration": {
+    "@container": "@language",
+    "@id": "http://schema.org/safetyConsideration",
+    "@type": "http://schema.org/Text"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "seriousAdverseOutcome": {
+    "@id": "http://schema.org/seriousAdverseOutcome",
+    "@type": "http://schema.org/MedicalEntity",
+    "inherit_from": "http://schema.org/MedicalTherapy"
+  },
+  "study": {
+    "@id": "http://schema.org/study",
+    "@type": "http://schema.org/MedicalStudy",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "targetPopulation": {
+    "@container": "@language",
+    "@id": "http://schema.org/targetPopulation",
+    "@type": "http://schema.org/Text"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}
