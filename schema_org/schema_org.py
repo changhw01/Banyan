@@ -101,7 +101,7 @@ class SchemaOrg:
 
     return schema
 
-  def InitFromSchemaOrg(self, schema_org_rdfa='../schema/schema_org_rdfa.html',
+  def InitFromSchemaOrg(self, schema_org_rdfa='schema_org_rdfa.html',
                         debug=False):
     schema_raw = self.ParseRDFa(schema_org_rdfa, debug)
 
