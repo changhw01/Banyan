@@ -1,4 +1,4 @@
-import banyan, json
+import banyan, json, codecs
 from imp import reload
 reload(banyan)
 
@@ -8,7 +8,7 @@ B.LoadContextFromFile('Person')
 B.LoadContextFromFile('Organization')
 
 # Load Books data.
-fin = open('TaiwanBooks/natlib-2014-5.json')
+fin = codecs.open('TaiwanBooks/natlib-2014-5.json', encoding='utf-8')
 for line in fin.readlines():
   book = json.loads(line)
   B.AddDataInstance('Book', book)

@@ -27,8 +27,7 @@ class Banyan:
     # so please make sure every properties are defined properly.
     # TODO: Add more detailed data type validation, and do extension instead
     # of overwriting.
-    props = [(k,v) for k,v in properties.items()]
-    print(props)
+    # TODO: Change the codes to handle the case that v is a object.
     instance = dict([(k,v) for k,v in properties.items()
                      if k in self.context[data_class_name]])
     # TODO: Check basic info, if missing some basic info, drop it.
