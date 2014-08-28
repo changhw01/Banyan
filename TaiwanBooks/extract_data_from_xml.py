@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as etree
-import json, codecs
+import json, codecs, collections
 
 fn_xml = 'natlib-2014-May.xml'
 tree = etree.parse(fn_xml)
@@ -8,7 +8,38 @@ Books = tree.getroot()
 def extractYearDate(str_date):
   sp = [int(i) for i in str_date.split('/')]
   sp[0] = sp[0] + 1911
-  return '%d/%d'%(sp[0], sp[1])
+  return '%d-%d'%(sp[0], sp[1])
+
+def extractAuthorData(str_data):
+  sp = str_data.split(';')
+  roles = collections.defaultdict(list)
+  for role in sp:
+    if role[-1] == '譯':
+      if role[-2] == '翻':
+        roles['translator'].append(role[:-2])
+      else:
+        roles['translator'].append(role[:-1])
+    elif role[-2:] == '編著':
+      roles['editor'].append(role[:-2])
+    elif role[-2:] == '編輯':
+      if role[-3] == '總':
+        roles['editor'].append(role[:-3])
+      else:
+        roles['editor'].append(role[:-2])
+    elif role[-1] == '編':
+      if role[-2] == '合':
+        roles['editor'].append(role[:-2])
+      else:
+        roles['editor'].append(role[:-1])
+    elif role[-2:] == '講述':
+      roles['author'].append(role[:-2])
+    elif role[-3:] == '等合著':
+      roles['author'].append(role[:-3])
+    elif role[-1] == '作' or role[-1] == '著':
+      roles['author'].append(role[:-1])
+    else:
+      roles['author'].append(role)
+  return roles
 
 def parseISBN(str_isbn):
   sp = str_isbn[:-1].split(u'(')
@@ -48,6 +79,14 @@ for Book in Books:
             book['bookSize'] = value
           else:
             book['bookBinding'] = value
+      elif k == 'author':
+        roles = extractAuthorData(elm.text)
+        if 'author' in roles:
+          book['author'] = ','.join(roles['author'])
+        if 'translator' in roles:
+          book['translator'] = ','.join(roles['translator'])
+        if 'editor' in roles:
+          book['editor'] = ','.join(roles['editor'])
       else:
         book[k] = elm.text
   dataset['Books'].append(book)
@@ -70,4 +109,3 @@ fout = codecs.open('natlib-2014-5.json', encoding='utf-8', mode='w')
 for book in dataset['Books']:
   fout.write(json.dumps(book, ensure_ascii=False) + '\n')
 fout.close()
-

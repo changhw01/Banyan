@@ -4,6 +4,8 @@ Defined here are the ProtoRPC messages needed to define Schemas for methods
 as well as those methods defined in an API.
 
 Check the api here: http://localhost:8080/_ah/api/explorer
+
+Example isbn = 978-986-89237-4-4
 """
 import endpoints
 from protorpc import messages
@@ -93,36 +95,51 @@ class BanyanApi(remote.Service):
     after_month = messages.StringField(7))
 
   @endpoints.method(QUERY_RESOURCE, BookCollection,
-                    path='book/{query_type}', http_method='GET',
-                    name='banyan.getBook')
-  def banyan_getbook_by_id(self, request):
-    try:
-      if request.query_type == 'isbn':
-        result = [BOOKS_ISBN[request.isbn]]
-      elif request.query_type == 'newest':
+                    path='{query_type}', http_method='GET',
+                    name='banyan.queryData')
+  def banyan_query(self, request):
+    if request.query_type == 'book':
+      try:
+        return self.query_book(request)
+      except (IndexError, TypeError):
+        raise endpoints.NotFoundException('Books not found.')
+
+  def query_book(self, request):
+    print dir(request)
+    if request.isbn:
+      result = [BOOKS_ISBN[request.isbn]]
+
+    # About date
+    result = []
+    if request.year:
+      print('year: %s'%request.year)
+      for k in BOOKS_DATE:
+        if k[:4] == request.year:
+          result.extend(BOOKS_DATE[k])
+    elif request.year_month:
+      print('year_month: %s'%request.year_month)
+      for k in BOOKS_DATE:
+        print(k)
+        if k == request.year_month:
+          result.extend(BOOKS_DATE[k])
+    elif request.before_month:
+      print('before_month: %s'%request.before_month)
+      result = [b for b in BOOKS_SORTED_BY_DATE
+                if b['datePublished'] < request.before_month]
+    elif request.after_month:
+      print('after_month: %s'%request.after_month)
+      result = [b for b in BOOKS_SORTED_BY_DATE
+                if b['datePublished'] > request.after_month]
+    if request.n_newest:
+      print('n_newest: %s'%request.n_newest)
+      if result:
+        print('len of result: %d' % len(result))
+        if request.n_newest < len(result):
+          result = result[:request.n_newest]
+      else:
+        print('no result')
         result = BOOKS_SORTED_BY_DATE[:request.n_newest]
-      elif request.query_type == 'date':
-        if request.year:
-          result = []
-          for k in BOOKS_DATE:
-            if k[:4] == request.year:
-              result += BOOKS_DATE[k]
-        elif request.year_month:
-          result = []
-          for k in BOOKS_DATE:
-            if k == request.year_month:
-              result += BOOKS_DATE[k]
-        elif request.before_month:
-          result = [b for b in BOOKS_SORTED_BY_DATE
-                    if b['datePublished'] < request.before_month]
-        elif request.after_month:
-          result = [b for b in BOOKS_SORTED_BY_DATE
-                    if b['datePublished'] > request.after_month]
 
-      return BookCollection(books=[BookJsonToMessage(b) for b in result])
-
-    except (IndexError, TypeError):
-      raise endpoints.NotFoundException('Books not found.')
-
+    return BookCollection(books=[BookJsonToMessage(b) for b in result])
 
 APPLICATION = endpoints.api_server([BanyanApi])
