@@ -6,8 +6,9 @@ import json, codecs
 
 url_book = 'http://book.tpi.org.tw/bookinfo.php?cID='
 books = []
-i_file = 5
-for i_page in xrange(1201, 15000):
+i_file = 101
+# To 33601
+for i_page in xrange(30001, 36001):
   url = url_book + str(i_page)
   try:
     response = urllib2.urlopen(url)
@@ -16,19 +17,19 @@ for i_page in xrange(1201, 15000):
     print('Stop at %d' % i_page)
     break
 
-  book = {}
   # There should be two tables.
   tables = html_body.find_all('table')
   if len(tables) < 2:
     continue
 
+  book = {'tpi-index': i_page}
   tds = tables[0].find_all('td')
   try:
     book['img_src'] = tds[0].find('img')['src']
   except:
     book['img_src'] = ''
   try:
-    book['name'] = tds[1].find('div', class_='tableName').text
+    book['name'] = tds[1].find('div').text
   except:
     book['name'] = ''
   book['ISBN'] = tds[3].text
@@ -65,9 +66,10 @@ for i_page in xrange(1201, 15000):
       })
 
   books.append(book)
-  print('Fetch book %d' % i_page)
+  print('Fetch book %d %s' % (i_page, book['name']))
 
-  time.sleep(random.randint(1, 3))
+  if i_page % 5 == 0:
+    time.sleep(random.randint(1, 3))
   if i_page % 300 == 0:
     fout = codecs.open('books/book_%d.json' % i_file,
                        encoding='utf-8', mode='a')
