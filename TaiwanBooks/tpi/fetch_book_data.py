@@ -1,25 +1,37 @@
-from bs4 import BeautifulSoup
-import urllib2
+#for i_page in xrange(30001, 36001):
+import urllib, urllib2
 import time
 import random
 import json, codecs
+from bs4 import BeautifulSoup
+import socket
+socket.setdefaulttimeout(30)
 
 url_book = 'http://book.tpi.org.tw/bookinfo.php?cID='
-books = []
-i_file = 101
-# To 33601
-for i_page in xrange(30001, 36001):
+
+fout = codecs.open('books/books.json', encoding='utf-8', mode='a')
+log_book_info = open('books/log_book.txt', 'a')
+err_book_info = open('books/err_book.txt', 'a')
+log_book_cover = open('books/log_cover.txt', 'a')
+err_book_cover = open('books/err_cover.txt', 'a')
+
+# 9/5 11:56PM 312000-311842
+# 9/6 00:11AM 311841-300000
+for i_page in xrange(311841, 300000, -1):
   url = url_book + str(i_page)
   try:
-    response = urllib2.urlopen(url)
+    response = urllib2.urlopen(url, timeout=30)
     html_body = BeautifulSoup(response.read()).body
   except:
-    print('Stop at %d' % i_page)
-    break
+    print('Failed to retrieve tpi: %s', i_page)
+    err_book_info.write(str(i_page) + '\n')
+    continue
 
   # There should be two tables.
   tables = html_body.find_all('table')
   if len(tables) < 2:
+    print('Failed to retrieve tpi: %s', i_page)
+    err_book_info.write(str(i_page) + '\n')
     continue
 
   book = {'tpi-index': i_page}
@@ -65,22 +77,26 @@ for i_page in xrange(30001, 36001):
       'company_url': tds[3].text
       })
 
-  books.append(book)
-  print('Fetch book %d %s' % (i_page, book['name']))
+  fout.write(json.dumps(book, ensure_ascii=False) + '\n')
 
-  if i_page % 5 == 0:
-    time.sleep(random.randint(1, 3))
-  if i_page % 300 == 0:
-    fout = codecs.open('books/book_%d.json' % i_file,
-                       encoding='utf-8', mode='a')
-    for book in books:
-      fout.write(json.dumps(book, ensure_ascii=False) + '\n')
-    fout.close()
-    books = []
-    i_file += 1
+  log_str = str(i_page) + '\n'
+  print('Fetched book: %s' % log_str[:-1])
+  log_book_info.write(log_str)
 
-if books:
-  fout = codecs.open('books/book_%d.json' % i_file, encoding='utf-8', mode='a')
-  for book in books:
-    fout.write(json.dumps(book, ensure_ascii=False) + '\n')
-  fout.close()
+  if book['img_src']:
+    try:
+      urllib.urlretrieve(book['img_src'],
+                         'books/covers/' + book['ISBN'] + '.jpg')
+      print('Fetched cover: %s' % log_str[:-1])
+      log_book_cover.write(log_str)
+    except:
+      err_book_cover.write(log_str)
+
+  if i_page % 3 == 0:
+    time.sleep(random.randint(1, 2))
+
+fout.close()
+log_book_info.close()
+log_book_cover.close()
+err_book_info.close()
+err_book_cover.close()
