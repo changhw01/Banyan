@@ -1,0 +1,130 @@
+{
+  "@type": "http://schema.org/DanceEvent",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "attendee": {
+    "@id": "http://schema.org/attendee",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "attendees": {
+    "@id": "http://schema.org/attendees",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "doorTime": {
+    "@id": "http://schema.org/doorTime",
+    "@type": "http://schema.org/DateTime",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "duration": {
+    "@id": "http://schema.org/duration",
+    "@type": "http://schema.org/Duration",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "endDate": {
+    "@id": "http://schema.org/endDate",
+    "@type": "http://schema.org/Date",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "eventStatus": {
+    "@id": "http://schema.org/eventStatus",
+    "@type": "http://schema.org/EventStatusType",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "location": {
+    "@id": "http://schema.org/location",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "offers": {
+    "@id": "http://schema.org/offers",
+    "@type": "http://schema.org/Offer",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "organizer": {
+    "@id": "http://schema.org/organizer",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "performer": {
+    "@id": "http://schema.org/performer",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "performers": {
+    "@id": "http://schema.org/performers",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "previousStartDate": {
+    "@id": "http://schema.org/previousStartDate",
+    "@type": "http://schema.org/Date",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "startDate": {
+    "@id": "http://schema.org/startDate",
+    "@type": "http://schema.org/Date",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "subEvent": {
+    "@id": "http://schema.org/subEvent",
+    "@type": "http://schema.org/Event",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "subEvents": {
+    "@id": "http://schema.org/subEvents",
+    "@type": "http://schema.org/Event",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "superEvent": {
+    "@id": "http://schema.org/superEvent",
+    "@type": "http://schema.org/Event",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "typicalAgeRange": {
+    "@container": "@language",
+    "@id": "http://schema.org/typicalAgeRange",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Event"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "workPerformed": {
+    "@id": "http://schema.org/workPerformed",
+    "@type": "http://schema.org/CreativeWork",
+    "inherit_from": "http://schema.org/Event"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "@type": "http://schema.org/Ticket",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "dateIssued": {
+    "@id": "http://schema.org/dateIssued",
+    "@type": "http://schema.org/DateTime"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "issuedBy": {
+    "@id": "http://schema.org/issuedBy",
+    "@type": "http://schema.org/Organization"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "priceCurrency": {
+    "@container": "@language",
+    "@id": "http://schema.org/priceCurrency",
+    "@type": "http://schema.org/Text"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "ticketNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/ticketNumber",
+    "@type": "http://schema.org/Text"
+  },
+  "ticketToken": {
+    "@id": "http://schema.org/ticketToken"
+  },
+  "ticketedSeat": {
+    "@id": "http://schema.org/ticketedSeat",
+    "@type": "http://schema.org/Seat"
+  },
+  "totalPrice": {
+    "@id": "http://schema.org/totalPrice"
+  },
+  "underName": {
+    "@id": "http://schema.org/underName"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

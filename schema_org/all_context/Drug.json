@@ -1,0 +1,214 @@
+{
+  "@type": "http://schema.org/Drug",
+  "activeIngredient": {
+    "@container": "@language",
+    "@id": "http://schema.org/activeIngredient",
+    "@type": "http://schema.org/Text"
+  },
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "administrationRoute": {
+    "@container": "@language",
+    "@id": "http://schema.org/administrationRoute",
+    "@type": "http://schema.org/Text"
+  },
+  "adverseOutcome": {
+    "@id": "http://schema.org/adverseOutcome",
+    "@type": "http://schema.org/MedicalEntity",
+    "inherit_from": "http://schema.org/MedicalTherapy"
+  },
+  "alcoholWarning": {
+    "@container": "@language",
+    "@id": "http://schema.org/alcoholWarning",
+    "@type": "http://schema.org/Text"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "availableStrength": {
+    "@id": "http://schema.org/availableStrength",
+    "@type": "http://schema.org/DrugStrength"
+  },
+  "breastfeedingWarning": {
+    "@container": "@language",
+    "@id": "http://schema.org/breastfeedingWarning",
+    "@type": "http://schema.org/Text"
+  },
+  "clincalPharmacology": {
+    "@container": "@language",
+    "@id": "http://schema.org/clincalPharmacology",
+    "@type": "http://schema.org/Text"
+  },
+  "code": {
+    "@id": "http://schema.org/code",
+    "@type": "http://schema.org/MedicalCode",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "contraindication": {
+    "@id": "http://schema.org/contraindication",
+    "@type": "http://schema.org/MedicalContraindication",
+    "inherit_from": "http://schema.org/MedicalTherapy"
+  },
+  "cost": {
+    "@id": "http://schema.org/cost",
+    "@type": "http://schema.org/DrugCost"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "dosageForm": {
+    "@container": "@language",
+    "@id": "http://schema.org/dosageForm",
+    "@type": "http://schema.org/Text"
+  },
+  "doseSchedule": {
+    "@id": "http://schema.org/doseSchedule",
+    "@type": "http://schema.org/DoseSchedule"
+  },
+  "drugClass": {
+    "@id": "http://schema.org/drugClass",
+    "@type": "http://schema.org/DrugClass"
+  },
+  "duplicateTherapy": {
+    "@id": "http://schema.org/duplicateTherapy",
+    "@type": "http://schema.org/MedicalTherapy",
+    "inherit_from": "http://schema.org/MedicalTherapy"
+  },
+  "foodWarning": {
+    "@container": "@language",
+    "@id": "http://schema.org/foodWarning",
+    "@type": "http://schema.org/Text"
+  },
+  "guideline": {
+    "@id": "http://schema.org/guideline",
+    "@type": "http://schema.org/MedicalGuideline",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "indication": {
+    "@id": "http://schema.org/indication",
+    "@type": "http://schema.org/MedicalIndication",
+    "inherit_from": "http://schema.org/MedicalTherapy"
+  },
+  "interactingDrug": {
+    "@id": "http://schema.org/interactingDrug",
+    "@type": "http://schema.org/Drug"
+  },
+  "isAvailableGenerically": {
+    "@id": "http://schema.org/isAvailableGenerically",
+    "@type": "http://schema.org/Boolean"
+  },
+  "isProprietary": {
+    "@id": "http://schema.org/isProprietary",
+    "@type": "http://schema.org/Boolean"
+  },
+  "labelDetails": {
+    "@id": "http://schema.org/labelDetails",
+    "@type": "http://schema.org/URL"
+  },
+  "legalStatus": {
+    "@id": "http://schema.org/legalStatus",
+    "@type": "http://schema.org/DrugLegalStatus"
+  },
+  "manufacturer": {
+    "@id": "http://schema.org/manufacturer",
+    "@type": "http://schema.org/Organization"
+  },
+  "mechanismOfAction": {
+    "@container": "@language",
+    "@id": "http://schema.org/mechanismOfAction",
+    "@type": "http://schema.org/Text"
+  },
+  "medicineSystem": {
+    "@id": "http://schema.org/medicineSystem",
+    "@type": "http://schema.org/MedicineSystem",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "nonProprietaryName": {
+    "@container": "@language",
+    "@id": "http://schema.org/nonProprietaryName",
+    "@type": "http://schema.org/Text"
+  },
+  "overdosage": {
+    "@container": "@language",
+    "@id": "http://schema.org/overdosage",
+    "@type": "http://schema.org/Text"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "pregnancyCategory": {
+    "@id": "http://schema.org/pregnancyCategory",
+    "@type": "http://schema.org/DrugPregnancyCategory"
+  },
+  "pregnancyWarning": {
+    "@container": "@language",
+    "@id": "http://schema.org/pregnancyWarning",
+    "@type": "http://schema.org/Text"
+  },
+  "prescribingInfo": {
+    "@id": "http://schema.org/prescribingInfo",
+    "@type": "http://schema.org/URL"
+  },
+  "prescriptionStatus": {
+    "@id": "http://schema.org/prescriptionStatus",
+    "@type": "http://schema.org/DrugPrescriptionStatus"
+  },
+  "recognizingAuthority": {
+    "@id": "http://schema.org/recognizingAuthority",
+    "@type": "http://schema.org/Organization",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "relatedDrug": {
+    "@id": "http://schema.org/relatedDrug",
+    "@type": "http://schema.org/Drug"
+  },
+  "relevantSpecialty": {
+    "@id": "http://schema.org/relevantSpecialty",
+    "@type": "http://schema.org/MedicalSpecialty",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "seriousAdverseOutcome": {
+    "@id": "http://schema.org/seriousAdverseOutcome",
+    "@type": "http://schema.org/MedicalEntity",
+    "inherit_from": "http://schema.org/MedicalTherapy"
+  },
+  "study": {
+    "@id": "http://schema.org/study",
+    "@type": "http://schema.org/MedicalStudy",
+    "inherit_from": "http://schema.org/MedicalEntity"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "warning": {
+    "@id": "http://schema.org/warning"
+  }
+}

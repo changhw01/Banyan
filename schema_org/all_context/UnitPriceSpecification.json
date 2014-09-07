@@ -1,0 +1,104 @@
+{
+  "@type": "http://schema.org/UnitPriceSpecification",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "billingIncrement": {
+    "@id": "http://schema.org/billingIncrement",
+    "@type": "http://schema.org/Number"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "eligibleQuantity": {
+    "@id": "http://schema.org/eligibleQuantity",
+    "@type": "http://schema.org/QuantitativeValue",
+    "inherit_from": "http://schema.org/PriceSpecification"
+  },
+  "eligibleTransactionVolume": {
+    "@id": "http://schema.org/eligibleTransactionVolume",
+    "@type": "http://schema.org/PriceSpecification",
+    "inherit_from": "http://schema.org/PriceSpecification"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "maxPrice": {
+    "@id": "http://schema.org/maxPrice",
+    "@type": "http://schema.org/Number",
+    "inherit_from": "http://schema.org/PriceSpecification"
+  },
+  "minPrice": {
+    "@id": "http://schema.org/minPrice",
+    "@type": "http://schema.org/Number",
+    "inherit_from": "http://schema.org/PriceSpecification"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "price": {
+    "@id": "http://schema.org/price",
+    "inherit_from": "http://schema.org/PriceSpecification"
+  },
+  "priceCurrency": {
+    "@container": "@language",
+    "@id": "http://schema.org/priceCurrency",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/PriceSpecification"
+  },
+  "priceType": {
+    "@container": "@language",
+    "@id": "http://schema.org/priceType",
+    "@type": "http://schema.org/Text"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "unitCode": {
+    "@container": "@language",
+    "@id": "http://schema.org/unitCode",
+    "@type": "http://schema.org/Text"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "validFrom": {
+    "@id": "http://schema.org/validFrom",
+    "@type": "http://schema.org/DateTime",
+    "inherit_from": "http://schema.org/PriceSpecification"
+  },
+  "validThrough": {
+    "@id": "http://schema.org/validThrough",
+    "@type": "http://schema.org/DateTime",
+    "inherit_from": "http://schema.org/PriceSpecification"
+  },
+  "valueAddedTaxIncluded": {
+    "@id": "http://schema.org/valueAddedTaxIncluded",
+    "@type": "http://schema.org/Boolean",
+    "inherit_from": "http://schema.org/PriceSpecification"
+  }
+}

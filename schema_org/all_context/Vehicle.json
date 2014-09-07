@@ -1,0 +1,176 @@
+{
+  "@type": "http://schema.org/Vehicle",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "aggregateRating": {
+    "@id": "http://schema.org/aggregateRating",
+    "@type": "http://schema.org/AggregateRating",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "audience": {
+    "@id": "http://schema.org/audience",
+    "@type": "http://schema.org/Audience",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "brand": {
+    "@id": "http://schema.org/brand",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "color": {
+    "@container": "@language",
+    "@id": "http://schema.org/color",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "depth": {
+    "@id": "http://schema.org/depth",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "gtin13": {
+    "@container": "@language",
+    "@id": "http://schema.org/gtin13",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "gtin14": {
+    "@container": "@language",
+    "@id": "http://schema.org/gtin14",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "gtin8": {
+    "@container": "@language",
+    "@id": "http://schema.org/gtin8",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "height": {
+    "@id": "http://schema.org/height",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "isAccessoryOrSparePartFor": {
+    "@id": "http://schema.org/isAccessoryOrSparePartFor",
+    "@type": "http://schema.org/Product",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "isConsumableFor": {
+    "@id": "http://schema.org/isConsumableFor",
+    "@type": "http://schema.org/Product",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "isRelatedTo": {
+    "@id": "http://schema.org/isRelatedTo",
+    "@type": "http://schema.org/Product",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "isSimilarTo": {
+    "@id": "http://schema.org/isSimilarTo",
+    "@type": "http://schema.org/Product",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "itemCondition": {
+    "@id": "http://schema.org/itemCondition",
+    "@type": "http://schema.org/OfferItemCondition",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "logo": {
+    "@id": "http://schema.org/logo",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "manufacturer": {
+    "@id": "http://schema.org/manufacturer",
+    "@type": "http://schema.org/Organization",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "model": {
+    "@id": "http://schema.org/model",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "mpn": {
+    "@container": "@language",
+    "@id": "http://schema.org/mpn",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "offers": {
+    "@id": "http://schema.org/offers",
+    "@type": "http://schema.org/Offer",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "productID": {
+    "@container": "@language",
+    "@id": "http://schema.org/productID",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "releaseDate": {
+    "@id": "http://schema.org/releaseDate",
+    "@type": "http://schema.org/Date",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "review": {
+    "@id": "http://schema.org/review",
+    "@type": "http://schema.org/Review",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "reviews": {
+    "@id": "http://schema.org/reviews",
+    "@type": "http://schema.org/Review",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "sku": {
+    "@container": "@language",
+    "@id": "http://schema.org/sku",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "weight": {
+    "@id": "http://schema.org/weight",
+    "@type": "http://schema.org/QuantitativeValue",
+    "inherit_from": "http://schema.org/Product"
+  },
+  "width": {
+    "@id": "http://schema.org/width",
+    "inherit_from": "http://schema.org/Product"
+  }
+}

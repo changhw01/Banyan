@@ -1,0 +1,69 @@
+{
+  "@type": "http://schema.org/AlignmentObject",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alignmentType": {
+    "@container": "@language",
+    "@id": "http://schema.org/alignmentType",
+    "@type": "http://schema.org/Text"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "educationalFramework": {
+    "@container": "@language",
+    "@id": "http://schema.org/educationalFramework",
+    "@type": "http://schema.org/Text"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "targetDescription": {
+    "@container": "@language",
+    "@id": "http://schema.org/targetDescription",
+    "@type": "http://schema.org/Text"
+  },
+  "targetName": {
+    "@container": "@language",
+    "@id": "http://schema.org/targetName",
+    "@type": "http://schema.org/Text"
+  },
+  "targetUrl": {
+    "@id": "http://schema.org/targetUrl",
+    "@type": "http://schema.org/URL"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

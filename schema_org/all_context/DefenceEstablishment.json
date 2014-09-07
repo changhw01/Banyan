@@ -1,0 +1,150 @@
+{
+  "@type": "http://schema.org/DefenceEstablishment",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "address": {
+    "@id": "http://schema.org/address",
+    "@type": "http://schema.org/PostalAddress",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "aggregateRating": {
+    "@id": "http://schema.org/aggregateRating",
+    "@type": "http://schema.org/AggregateRating",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "containedIn": {
+    "@id": "http://schema.org/containedIn",
+    "@type": "http://schema.org/Place",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "event": {
+    "@id": "http://schema.org/event",
+    "@type": "http://schema.org/Event",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "events": {
+    "@id": "http://schema.org/events",
+    "@type": "http://schema.org/Event",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "faxNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/faxNumber",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "geo": {
+    "@id": "http://schema.org/geo",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "globalLocationNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/globalLocationNumber",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "hasMap": {
+    "@id": "http://schema.org/hasMap",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "interactionCount": {
+    "@container": "@language",
+    "@id": "http://schema.org/interactionCount",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "isicV4": {
+    "@container": "@language",
+    "@id": "http://schema.org/isicV4",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "logo": {
+    "@id": "http://schema.org/logo",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "map": {
+    "@id": "http://schema.org/map",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "maps": {
+    "@id": "http://schema.org/maps",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "openingHours": {
+    "@id": "http://schema.org/openingHours",
+    "@type": "http://schema.org/Duration",
+    "inherit_from": "http://schema.org/CivicStructure"
+  },
+  "openingHoursSpecification": {
+    "@id": "http://schema.org/openingHoursSpecification",
+    "@type": "http://schema.org/OpeningHoursSpecification",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "photo": {
+    "@id": "http://schema.org/photo",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "photos": {
+    "@id": "http://schema.org/photos",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "review": {
+    "@id": "http://schema.org/review",
+    "@type": "http://schema.org/Review",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "reviews": {
+    "@id": "http://schema.org/reviews",
+    "@type": "http://schema.org/Review",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "telephone": {
+    "@container": "@language",
+    "@id": "http://schema.org/telephone",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Place"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "@type": "http://schema.org/PropertyValueSpecification",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "defaultValue": {
+    "@id": "http://schema.org/defaultValue"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "maxValue": {
+    "@id": "http://schema.org/maxValue",
+    "@type": "http://schema.org/Number"
+  },
+  "minValue": {
+    "@id": "http://schema.org/minValue",
+    "@type": "http://schema.org/Number"
+  },
+  "multipleValues": {
+    "@id": "http://schema.org/multipleValues",
+    "@type": "http://schema.org/Boolean"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "readonlyValue": {
+    "@id": "http://schema.org/readonlyValue",
+    "@type": "http://schema.org/Boolean"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "stepValue": {
+    "@id": "http://schema.org/stepValue",
+    "@type": "http://schema.org/Number"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "valueMaxLength": {
+    "@id": "http://schema.org/valueMaxLength",
+    "@type": "http://schema.org/Number"
+  },
+  "valueMinLength": {
+    "@id": "http://schema.org/valueMinLength",
+    "@type": "http://schema.org/Number"
+  },
+  "valueName": {
+    "@container": "@language",
+    "@id": "http://schema.org/valueName",
+    "@type": "http://schema.org/Text"
+  },
+  "valuePattern": {
+    "@id": "http://schema.org/valuePattern",
+    "@type": "http://schema.org/Number"
+  },
+  "valueRequired": {
+    "@id": "http://schema.org/valueRequired",
+    "@type": "http://schema.org/Boolean"
+  }
+}

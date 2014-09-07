@@ -1,0 +1,150 @@
+{
+  "@type": "http://schema.org/Product",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "aggregateRating": {
+    "@id": "http://schema.org/aggregateRating",
+    "@type": "http://schema.org/AggregateRating"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "audience": {
+    "@id": "http://schema.org/audience",
+    "@type": "http://schema.org/Audience"
+  },
+  "brand": {
+    "@id": "http://schema.org/brand"
+  },
+  "color": {
+    "@container": "@language",
+    "@id": "http://schema.org/color",
+    "@type": "http://schema.org/Text"
+  },
+  "depth": {
+    "@id": "http://schema.org/depth"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "gtin13": {
+    "@container": "@language",
+    "@id": "http://schema.org/gtin13",
+    "@type": "http://schema.org/Text"
+  },
+  "gtin14": {
+    "@container": "@language",
+    "@id": "http://schema.org/gtin14",
+    "@type": "http://schema.org/Text"
+  },
+  "gtin8": {
+    "@container": "@language",
+    "@id": "http://schema.org/gtin8",
+    "@type": "http://schema.org/Text"
+  },
+  "height": {
+    "@id": "http://schema.org/height"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "isAccessoryOrSparePartFor": {
+    "@id": "http://schema.org/isAccessoryOrSparePartFor",
+    "@type": "http://schema.org/Product"
+  },
+  "isConsumableFor": {
+    "@id": "http://schema.org/isConsumableFor",
+    "@type": "http://schema.org/Product"
+  },
+  "isRelatedTo": {
+    "@id": "http://schema.org/isRelatedTo",
+    "@type": "http://schema.org/Product"
+  },
+  "isSimilarTo": {
+    "@id": "http://schema.org/isSimilarTo",
+    "@type": "http://schema.org/Product"
+  },
+  "itemCondition": {
+    "@id": "http://schema.org/itemCondition",
+    "@type": "http://schema.org/OfferItemCondition"
+  },
+  "logo": {
+    "@id": "http://schema.org/logo"
+  },
+  "manufacturer": {
+    "@id": "http://schema.org/manufacturer",
+    "@type": "http://schema.org/Organization"
+  },
+  "model": {
+    "@id": "http://schema.org/model"
+  },
+  "mpn": {
+    "@container": "@language",
+    "@id": "http://schema.org/mpn",
+    "@type": "http://schema.org/Text"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "offers": {
+    "@id": "http://schema.org/offers",
+    "@type": "http://schema.org/Offer"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "productID": {
+    "@container": "@language",
+    "@id": "http://schema.org/productID",
+    "@type": "http://schema.org/Text"
+  },
+  "releaseDate": {
+    "@id": "http://schema.org/releaseDate",
+    "@type": "http://schema.org/Date"
+  },
+  "review": {
+    "@id": "http://schema.org/review",
+    "@type": "http://schema.org/Review"
+  },
+  "reviews": {
+    "@id": "http://schema.org/reviews",
+    "@type": "http://schema.org/Review"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "sku": {
+    "@container": "@language",
+    "@id": "http://schema.org/sku",
+    "@type": "http://schema.org/Text"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "weight": {
+    "@id": "http://schema.org/weight",
+    "@type": "http://schema.org/QuantitativeValue"
+  },
+  "width": {
+    "@id": "http://schema.org/width"
+  }
+}

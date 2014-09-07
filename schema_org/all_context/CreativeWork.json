@@ -1,0 +1,280 @@
+{
+  "@type": "http://schema.org/CreativeWork",
+  "about": {
+    "@id": "http://schema.org/about",
+    "@type": "http://schema.org/Thing"
+  },
+  "accessibilityAPI": {
+    "@container": "@language",
+    "@id": "http://schema.org/accessibilityAPI",
+    "@type": "http://schema.org/Text"
+  },
+  "accessibilityControl": {
+    "@container": "@language",
+    "@id": "http://schema.org/accessibilityControl",
+    "@type": "http://schema.org/Text"
+  },
+  "accessibilityFeature": {
+    "@container": "@language",
+    "@id": "http://schema.org/accessibilityFeature",
+    "@type": "http://schema.org/Text"
+  },
+  "accessibilityHazard": {
+    "@container": "@language",
+    "@id": "http://schema.org/accessibilityHazard",
+    "@type": "http://schema.org/Text"
+  },
+  "accountablePerson": {
+    "@id": "http://schema.org/accountablePerson",
+    "@type": "http://schema.org/Person"
+  },
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "aggregateRating": {
+    "@id": "http://schema.org/aggregateRating",
+    "@type": "http://schema.org/AggregateRating"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternativeHeadline": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternativeHeadline",
+    "@type": "http://schema.org/Text"
+  },
+  "associatedMedia": {
+    "@id": "http://schema.org/associatedMedia",
+    "@type": "http://schema.org/MediaObject"
+  },
+  "audience": {
+    "@id": "http://schema.org/audience",
+    "@type": "http://schema.org/Audience"
+  },
+  "audio": {
+    "@id": "http://schema.org/audio",
+    "@type": "http://schema.org/AudioObject"
+  },
+  "author": {
+    "@id": "http://schema.org/author"
+  },
+  "award": {
+    "@container": "@language",
+    "@id": "http://schema.org/award",
+    "@type": "http://schema.org/Text"
+  },
+  "awards": {
+    "@container": "@language",
+    "@id": "http://schema.org/awards",
+    "@type": "http://schema.org/Text"
+  },
+  "citation": {
+    "@id": "http://schema.org/citation"
+  },
+  "comment": {
+    "@id": "http://schema.org/comment",
+    "@type": "http://schema.org/UserComments"
+  },
+  "commentCount": {
+    "@id": "http://schema.org/commentCount",
+    "@type": "http://schema.org/Integer"
+  },
+  "contentLocation": {
+    "@id": "http://schema.org/contentLocation",
+    "@type": "http://schema.org/Place"
+  },
+  "contentRating": {
+    "@container": "@language",
+    "@id": "http://schema.org/contentRating",
+    "@type": "http://schema.org/Text"
+  },
+  "contributor": {
+    "@id": "http://schema.org/contributor"
+  },
+  "copyrightHolder": {
+    "@id": "http://schema.org/copyrightHolder"
+  },
+  "copyrightYear": {
+    "@id": "http://schema.org/copyrightYear",
+    "@type": "http://schema.org/Number"
+  },
+  "creator": {
+    "@id": "http://schema.org/creator"
+  },
+  "dateCreated": {
+    "@id": "http://schema.org/dateCreated",
+    "@type": "http://schema.org/Date"
+  },
+  "dateModified": {
+    "@id": "http://schema.org/dateModified",
+    "@type": "http://schema.org/Date"
+  },
+  "datePublished": {
+    "@id": "http://schema.org/datePublished",
+    "@type": "http://schema.org/Date"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "discussionUrl": {
+    "@id": "http://schema.org/discussionUrl",
+    "@type": "http://schema.org/URL"
+  },
+  "editor": {
+    "@id": "http://schema.org/editor",
+    "@type": "http://schema.org/Person"
+  },
+  "educationalAlignment": {
+    "@id": "http://schema.org/educationalAlignment",
+    "@type": "http://schema.org/AlignmentObject"
+  },
+  "educationalUse": {
+    "@container": "@language",
+    "@id": "http://schema.org/educationalUse",
+    "@type": "http://schema.org/Text"
+  },
+  "encoding": {
+    "@id": "http://schema.org/encoding",
+    "@type": "http://schema.org/MediaObject"
+  },
+  "encodings": {
+    "@id": "http://schema.org/encodings",
+    "@type": "http://schema.org/MediaObject"
+  },
+  "genre": {
+    "@container": "@language",
+    "@id": "http://schema.org/genre",
+    "@type": "http://schema.org/Text"
+  },
+  "headline": {
+    "@container": "@language",
+    "@id": "http://schema.org/headline",
+    "@type": "http://schema.org/Text"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "inLanguage": {
+    "@container": "@language",
+    "@id": "http://schema.org/inLanguage",
+    "@type": "http://schema.org/Text"
+  },
+  "interactionCount": {
+    "@container": "@language",
+    "@id": "http://schema.org/interactionCount",
+    "@type": "http://schema.org/Text"
+  },
+  "interactivityType": {
+    "@container": "@language",
+    "@id": "http://schema.org/interactivityType",
+    "@type": "http://schema.org/Text"
+  },
+  "isBasedOnUrl": {
+    "@id": "http://schema.org/isBasedOnUrl",
+    "@type": "http://schema.org/URL"
+  },
+  "isFamilyFriendly": {
+    "@id": "http://schema.org/isFamilyFriendly",
+    "@type": "http://schema.org/Boolean"
+  },
+  "keywords": {
+    "@container": "@language",
+    "@id": "http://schema.org/keywords",
+    "@type": "http://schema.org/Text"
+  },
+  "learningResourceType": {
+    "@container": "@language",
+    "@id": "http://schema.org/learningResourceType",
+    "@type": "http://schema.org/Text"
+  },
+  "license": {
+    "@id": "http://schema.org/license"
+  },
+  "mentions": {
+    "@id": "http://schema.org/mentions",
+    "@type": "http://schema.org/Thing"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "offers": {
+    "@id": "http://schema.org/offers",
+    "@type": "http://schema.org/Offer"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "provider": {
+    "@id": "http://schema.org/provider"
+  },
+  "publisher": {
+    "@id": "http://schema.org/publisher",
+    "@type": "http://schema.org/Organization"
+  },
+  "publishingPrinciples": {
+    "@id": "http://schema.org/publishingPrinciples",
+    "@type": "http://schema.org/URL"
+  },
+  "review": {
+    "@id": "http://schema.org/review",
+    "@type": "http://schema.org/Review"
+  },
+  "reviews": {
+    "@id": "http://schema.org/reviews",
+    "@type": "http://schema.org/Review"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "sourceOrganization": {
+    "@id": "http://schema.org/sourceOrganization",
+    "@type": "http://schema.org/Organization"
+  },
+  "text": {
+    "@container": "@language",
+    "@id": "http://schema.org/text",
+    "@type": "http://schema.org/Text"
+  },
+  "thumbnailUrl": {
+    "@id": "http://schema.org/thumbnailUrl",
+    "@type": "http://schema.org/URL"
+  },
+  "timeRequired": {
+    "@id": "http://schema.org/timeRequired",
+    "@type": "http://schema.org/Duration"
+  },
+  "typicalAgeRange": {
+    "@container": "@language",
+    "@id": "http://schema.org/typicalAgeRange",
+    "@type": "http://schema.org/Text"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "version": {
+    "@id": "http://schema.org/version",
+    "@type": "http://schema.org/Number"
+  },
+  "video": {
+    "@id": "http://schema.org/video",
+    "@type": "http://schema.org/VideoObject"
+  }
+}

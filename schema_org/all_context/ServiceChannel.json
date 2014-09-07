@@ -1,0 +1,77 @@
+{
+  "@type": "http://schema.org/ServiceChannel",
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "availableLanguage": {
+    "@id": "http://schema.org/availableLanguage",
+    "@type": "http://schema.org/Language"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "processingTime": {
+    "@id": "http://schema.org/processingTime",
+    "@type": "http://schema.org/Duration"
+  },
+  "providesService": {
+    "@id": "http://schema.org/providesService",
+    "@type": "http://schema.org/Service"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "serviceLocation": {
+    "@id": "http://schema.org/serviceLocation",
+    "@type": "http://schema.org/Place"
+  },
+  "servicePhone": {
+    "@id": "http://schema.org/servicePhone",
+    "@type": "http://schema.org/ContactPoint"
+  },
+  "servicePostalAddress": {
+    "@id": "http://schema.org/servicePostalAddress",
+    "@type": "http://schema.org/PostalAddress"
+  },
+  "serviceSmsNumber": {
+    "@id": "http://schema.org/serviceSmsNumber",
+    "@type": "http://schema.org/ContactPoint"
+  },
+  "serviceUrl": {
+    "@id": "http://schema.org/serviceUrl",
+    "@type": "http://schema.org/URL"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "@type": "http://schema.org/Order",
+  "acceptedOffer": {
+    "@id": "http://schema.org/acceptedOffer",
+    "@type": "http://schema.org/Offer"
+  },
+  "additionalType": {
+    "@id": "http://schema.org/additionalType",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "alternateName": {
+    "@container": "@language",
+    "@id": "http://schema.org/alternateName",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "billingAddress": {
+    "@id": "http://schema.org/billingAddress",
+    "@type": "http://schema.org/PostalAddress"
+  },
+  "confirmationNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/confirmationNumber",
+    "@type": "http://schema.org/Text"
+  },
+  "customer": {
+    "@id": "http://schema.org/customer"
+  },
+  "description": {
+    "@container": "@language",
+    "@id": "http://schema.org/description",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "discount": {
+    "@id": "http://schema.org/discount"
+  },
+  "discountCode": {
+    "@container": "@language",
+    "@id": "http://schema.org/discountCode",
+    "@type": "http://schema.org/Text"
+  },
+  "discountCurrency": {
+    "@container": "@language",
+    "@id": "http://schema.org/discountCurrency",
+    "@type": "http://schema.org/Text"
+  },
+  "image": {
+    "@id": "http://schema.org/image",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "isGift": {
+    "@id": "http://schema.org/isGift",
+    "@type": "http://schema.org/Boolean"
+  },
+  "merchant": {
+    "@id": "http://schema.org/merchant"
+  },
+  "name": {
+    "@container": "@language",
+    "@id": "http://schema.org/name",
+    "@type": "http://schema.org/Text",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "orderDate": {
+    "@id": "http://schema.org/orderDate",
+    "@type": "http://schema.org/DateTime"
+  },
+  "orderNumber": {
+    "@container": "@language",
+    "@id": "http://schema.org/orderNumber",
+    "@type": "http://schema.org/Text"
+  },
+  "orderStatus": {
+    "@id": "http://schema.org/orderStatus",
+    "@type": "http://schema.org/OrderStatus"
+  },
+  "orderedItem": {
+    "@id": "http://schema.org/orderedItem",
+    "@type": "http://schema.org/Product"
+  },
+  "paymentDue": {
+    "@id": "http://schema.org/paymentDue",
+    "@type": "http://schema.org/DateTime"
+  },
+  "paymentMethod": {
+    "@id": "http://schema.org/paymentMethod",
+    "@type": "http://schema.org/PaymentMethod"
+  },
+  "paymentMethodId": {
+    "@container": "@language",
+    "@id": "http://schema.org/paymentMethodId",
+    "@type": "http://schema.org/Text"
+  },
+  "paymentUrl": {
+    "@id": "http://schema.org/paymentUrl",
+    "@type": "http://schema.org/URL"
+  },
+  "potentialAction": {
+    "@id": "http://schema.org/potentialAction",
+    "@type": "http://schema.org/Action",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "sameAs": {
+    "@id": "http://schema.org/sameAs",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  },
+  "url": {
+    "@id": "http://schema.org/url",
+    "@type": "http://schema.org/URL",
+    "inherit_from": "http://schema.org/Thing"
+  }
+}
