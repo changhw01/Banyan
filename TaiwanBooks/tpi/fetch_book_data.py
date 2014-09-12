@@ -9,16 +9,19 @@ socket.setdefaulttimeout(30)
 
 url_book = 'http://book.tpi.org.tw/bookinfo.php?cID='
 
-fout = codecs.open('books/books.json', encoding='utf-8', mode='a')
-log_book_info = open('books/log_book.txt', 'a')
-err_book_info = open('books/err_book.txt', 'a')
-log_book_cover = open('books/log_cover.txt', 'a')
-err_book_cover = open('books/err_cover.txt', 'a')
+dir_working = 'working/'
+
+fout = codecs.open(dir_working + 'books.json', encoding='utf-8', mode='a')
+log_book_info = open(dir_working + 'log_book.txt', 'a')
+err_book_info = open(dir_working + 'err_book.txt', 'a')
+log_book_cover = open(dir_working + 'log_cover.txt', 'a')
+err_book_cover = open(dir_working + 'err_cover.txt', 'a')
 
 # 9/5 11:56PM 312000-311842
 # 9/6 00:11AM 311841-300000
 # 9/6 14:01PM 300000-292000
-for i_page in xrange(300000, 292000, -1):
+# 9/8 7:53AM 292000-280000
+for i_page in xrange(292000, 280000,-1):
   url = url_book + str(i_page)
   try:
     response = urllib2.urlopen(url, timeout=30)
@@ -87,7 +90,7 @@ for i_page in xrange(300000, 292000, -1):
   if book['img_src']:
     try:
       urllib.urlretrieve(book['img_src'],
-                         'books/covers/' + book['ISBN'] + '.jpg')
+                         dir_working + 'covers/' + book['ISBN'] + '.jpg')
       print('Fetched cover: %s' % log_str[:-1])
       log_book_cover.write(log_str)
     except:
